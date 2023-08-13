@@ -1,19 +1,30 @@
 *{
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 .header{
     padding: 20px;
-    font-family: ;
-    background-color: black;
+    /*background-color: black;*/
 }
 
 .header h1{
     font-weight: bold;
+    display: inline-block;
     font-size: 45px;
     color: green;
 }
 
 .header nav{
-
+    font-size: 30px;
+    margin-right: 20px;
+    float: right;
+    padding: 10px;
 }
+
+.header li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
