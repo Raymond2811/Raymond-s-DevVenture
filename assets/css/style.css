@@ -5,15 +5,17 @@
 }
 
 .header{
-    padding: 20px;
-    /*background-color: black;*/
+    padding: 20px 20px 20px 0px;
+    background-color: #5cdb95
 }
 
 .header h1{
     font-weight: bold;
     display: inline-block;
     font-size: 45px;
-    color: green;
+    color: #05386b;
+    /*background-color: #379683;*/
+    padding-left: 50px;
 }
 
 .header nav{
@@ -26,5 +28,11 @@
 .header li{
     display: inline-block;
     margin-left: 15px;
+}
+
+.header a{
+    text-decoration: underline;
+    color:#05386b;
+    text-underline-offset: 10px;
 }
 
