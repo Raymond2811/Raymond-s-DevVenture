@@ -74,7 +74,7 @@ section h2::after{
     display: block;
     position: absolute;
     background-color: #333;
-    right: -10px;
+    right: 6px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -86,7 +86,7 @@ section h2::after{
 
 footer { 
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: flex-end;
     background-color: #5cdb95;
     padding: 20px;
@@ -94,5 +94,15 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.contact p{
+    text-align: right;
+    white-space: nowrap;
+    font-weight: bolder;
+}
+
+.contact-info{
+    padding-left: 250px;
 }
 
