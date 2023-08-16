@@ -86,7 +86,7 @@ section h2::after{
 
 footer { 
     display: flex;
-    /* justify-content: center; */
+    /* justify-content: center;  */
     align-items: flex-end;
     background-color: #5cdb95;
     padding: 20px;
