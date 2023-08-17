@@ -10,14 +10,14 @@
 .header h1{
     font-weight: bold;
     display: inline-block;
-    font-size: 45px;
+    font-size: 60px;
     color: #05386b;
     /*background-color: #379683;*/
     padding-left: 50px;
 }
 
 .header nav{
-    font-size: 30px;
+    font-size: 40px;
     margin-right: 20px;
     float: right;
     padding: 10px;
@@ -37,34 +37,44 @@
 section{
     display: flex;
     align-items: center;
-    margin: 10px 0;
+    margin: 30px 0px;
     padding-top: 10px;
     /* scroll-snap-align: start; */
 }
 
 section h2{
     flex: 1;
-    font-size: 30px;
-    margin-right: 20px;
+    font-size: 40px;
     padding-left: 150px;
     position: relative;
 }
 
 section p{
-    flex: 2;
-    padding-right: 40px;
+    flex: 3;
+    margin-right: 180px;
+    font-size: 20px;  
 }
 
 section h2::after{ 
     content: "";
     width: 3px;
-    height: 30px;
+    height: 120px;
     display: block;
     position: absolute;
     background-color: #333;
-    right: 300px;
+    right: 146px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.work h2::after{
+    right: -40px;
+    top: 50%;
+    height: 800px;
+}
+
+.work h2{
+    height: 800px;
 }
 
 /* might make this an id later*/
@@ -75,14 +85,14 @@ section h2::after{
     display: block;
     position: absolute;
     background-color: #333;
-    right: 6px;
+    right: -22px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .me{
     display: block;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 footer { 
@@ -92,7 +102,7 @@ footer {
     background-color: #5cdb95;
     padding: 0px;
     color: #05386b;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
@@ -111,7 +121,7 @@ footer {
 main{
     scroll-snap-type: y mandatory;
     overflow-y:scroll ;
-    height: 200vh;
+    height: 150vh;
 }
 
 .banner{ 
@@ -136,7 +146,7 @@ main{
 }
 
 .box-small{
-    width: 44%;
+    width: 36.5%;
     height: 150px;
     margin-right: 50px;
     margin-bottom: 20px;
@@ -152,5 +162,9 @@ html{
     height: 150px;
 }
 .container{
-    padding-left: 332px;
+    padding-left: 180px;
+}
+
+#contact{
+    left: -20px;
 }
