@@ -15,6 +15,19 @@
     padding: 20px 20px 0px 0px;
 }
 
+.header a:hover{ 
+    color: #04e8f8;
+ }  
+
+nav a:active{ 
+    color: var(--skyblue);
+} 
+
+nav a:focus{
+    border-color: var(--skyblue);
+
+}  
+
 .header h1{
     font-weight: bold;
     display: inline-block;
@@ -144,7 +157,7 @@ footer {
 }
 
 .box-small{
-    width: 38.3%;
+    width: 37.6%;
     height: 156px;
     margin-right: 50px;
     margin-bottom: 20px;
