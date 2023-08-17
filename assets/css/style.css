@@ -73,7 +73,7 @@ section h2{
 
 section p{
     flex: 3;
-    margin-right: 100px;
+    margin-right: 40px;
     font-size: 20px;
     color: var(--skyblue);  
 }
@@ -134,7 +134,8 @@ footer {
 }
 
 .contact-info{
-    padding-left: 180px;
+    padding-right: 100px;
+    margin-left: 100px;
 }
 
 .banner{ 
@@ -233,4 +234,9 @@ a img{
     position: absolute;
     top: 13%;
     left: 150px;
+}
+
+.contact a{
+    text-decoration: none;
+    color:var(--skyblue);  
 }
