@@ -90,7 +90,7 @@ section h2::after{
 }
 
 .work h2::after{
-    right: -40px;
+    right: -52px;
     top: 50%;
     height: 800px;
 }
@@ -225,3 +225,4 @@ a img{
 .box-small #horiseon:active{
     color: var(--skyblue);
 }
+
