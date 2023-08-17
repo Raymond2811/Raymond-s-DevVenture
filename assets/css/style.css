@@ -235,7 +235,7 @@ a img{
     width: 120px;
     height: 200px;
     position: absolute;
-    top: 13%;
+    top: 12%;
     left: 150px;
 }
 
@@ -244,16 +244,14 @@ a img{
     color:var(--skyblue);  
 }
 
-
-
-@media (max-width: 768px) {
+@media (max-width: 995px) {
     body {
         font-size: 14px; 
         margin-right: 0;
     }
 
     .banner{
-        width: 115%;
+        width: 100%;
     }
 
     .avatar {
@@ -267,6 +265,11 @@ a img{
         font-size: 40px; 
     }
 
+    .header nav{
+        padding-bottom: 10px;
+        font-size: 35px;
+    }
+
     .work{
         margin-top: 100px;
     }
@@ -276,20 +279,115 @@ a img{
     }
 
     section h2::after{
-        right: 0px;
-        height: 400px;
+        right: -12px;
+        height: 220px;
     }
 
     section p {
         font-size: 18px;
-        padding-left: 50px; 
+        padding-left: 70px; 
     }
     .container{
         padding-left: 100px;
     }
 
     .work h2::after{
-        height: 1150px;
+        height: 800px;
+    }
+
+    .box {
+        width: 620px; 
+        height: auto;
+        margin-right: 0; 
+    }
+
+    .box img{
+        width: 605px;
+        height: 400px;
+    }
+
+    .box-small {
+        width: 306px; 
+        height: 155px;
+        margin-right: 10px; 
+    }
+
+    .box-small img {
+        width: 300px; 
+        height: 150px; 
+    }
+
+    .contact{
+        padding-left: 0px;
+    }
+
+    .contact h2::after{
+        right: -32px;
+    }
+
+    .contact-info{
+        margin-left: 0;
+        padding-right: 80px;
+    }
+
+    .contact p{
+        padding-left: 60px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 14px; 
+        margin-right: 0;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .avatar {
+        width: 80px; 
+        height: auto; 
+        position: relative;
+        top: -160px;
+    }
+
+    .header h1 {
+        font-size: 40px; 
+    }
+    .header nav{
+        margin-right: -19px;
+        font-size: 28px;
+    }
+    .work{
+        margin-top: 100px;
+    }
+
+    section h2 {
+        font-size: 30px;
+        padding-left: 50px; 
+        max-width: 165px;
+    }
+
+    section h2::after{
+        right: -12px;
+        height: 350px;
+    }
+
+    section p {
+        font-size: 18px;
+        padding-left: 70px; 
+        padding-right: 15px;
+    }
+    .container{
+        padding-left: 100px;
+    }
+
+    .work h2::after{
+        height: 800px;
     }
 
     .box {
@@ -304,18 +402,18 @@ a img{
     }
 
     .box-small {
-        width: 306px; 
+        width: 255px; 
         height: 155px;
-        margin-right: 0; 
+        margin-right: 6px; 
     }
 
     .box-small img {
-        width: 300px; 
+        width: 250px; 
         height: 150px; 
     }
 
     .contact{
-        padding-left: 0;
+        padding-left: 0px;
     }
 
     .contact h2::after{
@@ -325,5 +423,108 @@ a img{
     .contact-info{
         margin-left: 0;
         padding-right: 30px;
+    }
+
+    .contact p{
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 580px) {
+    body {
+        font-size: 14px; 
+        margin-right: 0;
+    }
+
+    .banner{
+        width: 165%;
+    }
+
+    .avatar {
+        width: 80px; 
+        height: auto; 
+        position: relative;
+        top: -160px;
+    }
+
+    .header h1 {
+        font-size: 40px; 
+    }
+
+    .header nav{
+        padding-bottom: 10px;
+        margin-right: -380px;
+        font-size: 40px;
+    }
+
+    main{
+        width: 800px;
+    }
+
+    .work{
+        margin-top: 100px;
+    }
+
+    section h2 {
+        font-size: 40px; 
+        padding-left: 50PX;
+    }
+
+    section h2::after{
+        right: -40px;
+        height: 800px;
+    }
+
+    section p {
+        font-size: 18px;
+        padding-left: 90px; 
+        font-size: 30px;
+    }
+    .container{
+        padding-left: 100px;
+    }
+
+    .work h2::after{
+        height: 800px;
+    }
+
+    .box {
+        width: 620px; 
+        height: auto;
+        margin-right: 0; 
+    }
+
+    .box img{
+        width: 605px;
+        height: 400px;
+    }
+
+    .box-small {
+        width: 300px; 
+        height: 155px;
+        margin-right: 10px; 
+    }
+
+    .box-small img {
+        width: 295px; 
+        height: 150px; 
+    }
+
+    .contact{
+        padding-left: 0px;
+    }
+
+    .contact h2::after{
+        right: -58px;
+    }
+
+    .contact-info{
+        margin-left: 0;
+        padding-right: 80px;
+    }
+
+    .contact p{
+        padding-left: 60px;
+        font-size: 20px;
     }
 }
