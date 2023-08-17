@@ -175,6 +175,7 @@ html{
     width: 375px;
     height: 150px;
 }
+
 .container{
     padding-left: 200px;
 }
@@ -239,4 +240,88 @@ a img{
 .contact a{
     text-decoration: none;
     color:var(--skyblue);  
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; 
+        margin-right: 0;
+    }
+
+    .banner{
+        width: 115%;
+    }
+
+    .avatar {
+        width: 80px; 
+        height: auto; 
+        position: relative;
+        top: -160px;
+    }
+
+    .header h1 {
+        font-size: 40px; 
+    }
+
+    .work{
+        margin-top: 50px;
+    }
+
+    section h2 {
+        font-size: 30px; 
+    }
+
+    section h2::after{
+        right: 0px;
+        height: 400px;
+    }
+
+    section p {
+        font-size: 18px;
+        padding-left: 50px; 
+    }
+    .container{
+        padding-left: 100px;
+    }
+
+    .work h2::after{
+        height: 1150px;
+    }
+
+    .box {
+        width: 515px; 
+        height: auto;
+        margin-right: 0; 
+    }
+
+    .box img{
+        width: 510px;
+        height: 400px;
+    }
+
+    .box-small {
+        width: 306px; 
+        height: 155px;
+        margin-right: 0; 
+    }
+
+    .box-small img {
+        width: 300px; 
+        height: 150px; 
+    }
+
+    .contact{
+        padding-left: 0;
+    }
+
+    .contact h2::after{
+        right: -32px;
+    }
+
+    .contact-info{
+        margin-left: 0;
+        padding-right: 30px;
+    }
 }
