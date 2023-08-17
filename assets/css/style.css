@@ -1,18 +1,26 @@
+:root{
+    --black:black;
+    --green:#08fa4db4;
+    --grey:#cccccc;
+    --blue:#0441f8b0;
+}
+
 *{
     box-sizing: border-box;
+    font-family: American Typewriter, serif !important;
+    background-color: var(--black);
 }
 
 .header{
     padding: 20px 20px 20px 0px;
-    background-color: #5cdb95
 }
 
 .header h1{
     font-weight: bold;
     display: inline-block;
     font-size: 60px;
-    color: #05386b;
-    /*background-color: #379683;*/
+    color: var(--grey);
+    background-color: var(--green);
     padding-left: 50px;
 }
 
@@ -30,7 +38,7 @@
 
 .header a{
     text-decoration: underline;
-    color:#05386b;
+    color:var(--green);
     text-underline-offset: 10px;
 }
 
@@ -39,7 +47,6 @@ section{
     align-items: center;
     margin: 30px 0px;
     padding-top: 10px;
-    /* scroll-snap-align: start; */
 }
 
 section h2{
@@ -47,12 +54,14 @@ section h2{
     font-size: 40px;
     padding-left: 150px;
     position: relative;
+    color: var(--blue);
 }
 
 section p{
     flex: 3;
     margin-right: 180px;
-    font-size: 20px;  
+    font-size: 20px;
+    color: var(--blue);  
 }
 
 section h2::after{ 
@@ -61,7 +70,7 @@ section h2::after{
     height: 120px;
     display: block;
     position: absolute;
-    background-color: #333;
+    background-color: var(--green);
     right: 146px;
     top: 50%;
     transform: translateY(-50%);
@@ -77,14 +86,13 @@ section h2::after{
     height: 800px;
 }
 
-/* might make this an id later*/
 .contact h2::after{
     content: "";
     width: 3px;
     height: 100%;
     display: block;
     position: absolute;
-    background-color: #333;
+    background-color: var(--green);
     right: -22px;
     top: 50%;
     transform: translateY(-50%);
@@ -99,9 +107,7 @@ footer {
     display: flex;
     /* justify-content: center;  */
     align-items: flex-end;
-    background-color: #5cdb95;
     padding: 0px;
-    color: #05386b;
     /* position: fixed; */
     bottom: 0;
     width: 100%;
@@ -117,26 +123,19 @@ footer {
     padding-left: 250px;
 }
 
-
-main{
-    scroll-snap-type: y mandatory;
-    overflow-y:scroll ;
-    height: 150vh;
-}
-
 .banner{ 
     width: 100%;
     height: 150px;
-    border: solid black 4px;
+    border: solid var(--green) 3px;
     margin-bottom: 20px;
 }
 
 .box{
-    border: 1px blue solid ;
-    width: 800px;
-    height: 450px;
-    margin-bottom: 20px;
+    width: 810px;
+    height: 456px;
+    margin-bottom: 40px;
     margin-right: 52px;
+    border: var(--green) 3px solid;
 }
 
 .box-wrapper{
@@ -146,10 +145,12 @@ main{
 }
 
 .box-small{
-    width: 36.5%;
-    height: 150px;
+    width: 38.3%;
+    height: 156px;
     margin-right: 50px;
     margin-bottom: 20px;
+    border: solid 3px var(--green);
+
 }
 
 
