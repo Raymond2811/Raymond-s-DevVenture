@@ -68,6 +68,7 @@ section h2{
     padding-left: 150px;
     position: relative;
     color: var(--skyblue);
+    height: 100px;
 }
 
 section p{
@@ -157,7 +158,7 @@ footer {
 }
 
 .box-small{
-    width: 37.6%;
+    width: 39.%;
     height: 156px;
     margin-right: 50px;
     margin-bottom: 20px;
@@ -226,3 +227,10 @@ a img{
     color: var(--skyblue);
 }
 
+.avatar{
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    top: 13%;
+    left: 150px;
+}
