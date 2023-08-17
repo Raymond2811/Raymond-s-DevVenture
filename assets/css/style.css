@@ -69,11 +69,12 @@ section h2{
     position: relative;
     color: var(--skyblue);
     height: 100px;
+    max-width: 265px;
 }
 
 section p{
     flex: 3;
-    padding-right: 50px;
+    padding-left: 180px;
     font-size: 20px;
     color: var(--skyblue);  
 }
@@ -85,14 +86,13 @@ section h2::after{
     display: block;
     position: absolute;
     background-color: var(--green);
-    right: 155px;
+    right: -38px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .work h2::after{
     right: -52px;
-    top: 50%;
     height: 800px;
 }
 
@@ -107,7 +107,7 @@ section h2::after{
     display: block;
     position: absolute;
     background-color: var(--green);
-    right: -22px;
+    right: -55px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -131,12 +131,14 @@ footer {
     text-align: right;
     white-space: nowrap;
     font-weight: bolder;
+    padding-left: 115px;
 }
 
 .contact-info{
     padding-right: 100px;
-    margin-left: 100px;
+    margin-left: 60px;
 }
+
 
 .banner{ 
     width: 100%;
@@ -266,7 +268,7 @@ a img{
     }
 
     .work{
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     section h2 {
