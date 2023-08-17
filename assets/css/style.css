@@ -73,7 +73,7 @@ section h2{
 
 section p{
     flex: 3;
-    margin-right: 40px;
+    padding-right: 50px;
     font-size: 20px;
     color: var(--skyblue);  
 }
@@ -85,7 +85,7 @@ section h2::after{
     display: block;
     position: absolute;
     background-color: var(--green);
-    right: 146px;
+    right: 155px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -176,7 +176,7 @@ html{
     height: 150px;
 }
 .container{
-    padding-left: 180px;
+    padding-left: 200px;
 }
 
 #contact{
