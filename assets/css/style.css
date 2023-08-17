@@ -2,7 +2,7 @@
     --black:black;
     --green:#08fa4db4;
     --grey:#cccccc;
-    --blue:#0441f8b0;
+    --skyblue:#04e8f8;
 }
 
 *{
@@ -19,7 +19,7 @@
     font-weight: bold;
     display: inline-block;
     font-size: 60px;
-    color: var(--grey);
+    color: var(--black);
     background-color: var(--green);
     padding-left: 50px;
 }
@@ -54,14 +54,14 @@ section h2{
     font-size: 40px;
     padding-left: 150px;
     position: relative;
-    color: var(--blue);
+    color: var(--skyblue);
 }
 
 section p{
     flex: 3;
-    margin-right: 180px;
+    margin-right: 100px;
     font-size: 20px;
-    color: var(--blue);  
+    color: var(--skyblue);  
 }
 
 section h2::after{ 
@@ -120,7 +120,7 @@ footer {
 }
 
 .contact-info{
-    padding-left: 220px;
+    padding-left: 180px;
 }
 
 .banner{ 
@@ -149,7 +149,6 @@ footer {
     margin-right: 50px;
     margin-bottom: 20px;
     border: solid 3px var(--green);
-
 }
 
 
@@ -167,4 +166,8 @@ html{
 
 #contact{
     left: -20px;
+}
+
+a img{
+    vertical-align: middle;
 }
