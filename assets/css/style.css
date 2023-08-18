@@ -1,7 +1,6 @@
 :root{
     --black:black;
     --green:#08fa4db4;
-    --grey:#cccccc;
     --skyblue:#04e8f8;
 }
 
@@ -11,22 +10,13 @@
     background-color: var(--black);
 }
 
-.header{
-    padding: 20px 20px 0px 0px;
+html{
+    scroll-behavior: smooth;
 }
 
-.header a:hover{ 
-    color: #04e8f8;
- }  
-
-nav a:active{ 
-    color: var(--skyblue);
+.header{
+    padding: 20px 20px 0px 0px;
 } 
-
-nav a:focus{
-    border-color: var(--skyblue);
-
-}  
 
 .header h1{
     font-weight: bold;
@@ -55,6 +45,24 @@ nav a:focus{
     text-underline-offset: 10px;
 }
 
+.header a:hover{ 
+    color: #04e8f8;
+ } 
+ 
+.banner{ 
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.avatar{
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    top: 12%;
+    left: 150px;
+}
+
 section{
     display: flex;
     align-items: center;
@@ -74,8 +82,7 @@ section h2{
 
 section p{
     flex: 3;
-    padding-left: 180px;
-    padding-right: 80px;
+    padding: 0 80px 0 180px;
     font-size: 20px;
     color: var(--skyblue);  
 }
@@ -92,106 +99,24 @@ section h2::after{
     transform: translateY(-50%);
 }
 
-.work h2::after{
-    right: -52px;
-    height: 800px;
-}
-
 .work h2{
     height: 800px;
 }
 
-.contact h2::after{
-    content: "";
-    width: 3px;
-    height: 100%;
-    display: block;
-    position: absolute;
-    background-color: var(--green);
-    right: -55px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.me{
-    display: block;
-    margin-left: 70px;
-}
-
-footer { 
-    display: flex;
-    /* justify-content: center;  */
-    align-items: flex-end;
-    padding: 0px;
-    /* position: fixed; */
-    bottom: 0;
-    width: 100%;
-}
-
-.contact p{
-    text-align: right;
-    white-space: nowrap;
-    font-weight: bolder;
-    padding-left: 115px;
-}
-
-.contact-info{
-    padding-right: 100px;
-    margin-left: 60px;
-}
-
-
-.banner{ 
-    width: 100%;
-    height: 200px;
-    margin-bottom: 20px;
-}
-
-.box{
-    width: 810px;
-    height: 456px;
-    margin-bottom: 40px;
-    margin-right: 52px;
-    border: var(--green) 3px solid;
-}
-
-.box-wrapper{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.box-small{
-    width: 39.%;
-    height: 156px;
-    margin-right: 50px;
-    margin-bottom: 20px;
-    border: solid 3px var(--green);
-}
-
-
-html{
-    scroll-behavior: smooth;
-}
-
-.box-small img {
-    width: 375px;
-    height: 150px;
+.work h2::after{
+    right: -52px;
+    height: 800px;
 }
 
 .container{
     padding-left: 200px;
 }
 
-#contact{
-    left: -20px;
-}
-
-a img{
-    vertical-align: middle;
-}
-
 .box{
+    width: 810px;
+    height: 456px;
+    margin: 0 52px 40px 0;
+    border: var(--green) 3px solid;
     position: relative;
 }
 
@@ -207,13 +132,22 @@ a img{
     margin-bottom: 50px;
 }
 
-.box-small{
-    position: relative;
+a img{
+    vertical-align: middle;
 }
 
-.box-small #horiseon{
-    width: 225px;
-    height: 30px;
+.box-wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-small{
+    width: 39.%;
+    height: 156px;
+    margin: 0 50px 20px 0;
+    border: solid 3px var(--green);
+    position: relative;
 }
 
 .box-small h3{
@@ -228,21 +162,56 @@ a img{
     margin-bottom: 20px;
 }
 
+.box-small #horiseon{
+    width: 225px;
+    height: 30px;
+}
+
 .box-small #horiseon:active{
     color: var(--skyblue);
 }
 
-.avatar{
-    width: 120px;
-    height: 200px;
-    position: absolute;
-    top: 12%;
-    left: 150px;
+.box-small img {
+    width: 375px;
+    height: 150px;
+}
+
+footer { 
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+#contact{
+    left: -20px;
+}
+
+.me{
+    display: block;
+    margin-left: 70px;
+}
+
+.contact h2::after{
+    right: -55px;
+    top: 50%;
+    height: 100px;
 }
 
 .contact a{
     text-decoration: none;
     color:var(--skyblue);  
+}
+
+.contact-info{
+    padding-right: 100px;
+    margin-left: 60px;
+}
+
+.contact p{
+    text-align: right;
+    white-space: nowrap;
+    font-weight: bolder;
+    padding-left: 115px;
 }
 
 @media (max-width: 995px) {
@@ -252,7 +221,7 @@ a img{
     }
 
     .banner{
-        width: 100%;
+        width: 108%;
     }
 
     .avatar {
@@ -269,10 +238,7 @@ a img{
     .header nav{
         padding-bottom: 10px;
         font-size: 35px;
-    }
-
-    .work{
-        margin-top: 100px;
+        margin-right: -75px;
     }
 
     section h2 {
@@ -288,12 +254,17 @@ a img{
         font-size: 18px;
         padding-left: 70px; 
     }
-    .container{
-        padding-left: 100px;
+
+    .work{
+        margin-top: 100px;
     }
 
     .work h2::after{
         height: 800px;
+    }
+
+    .container{
+        padding-left: 100px;
     }
 
     .box {
@@ -363,9 +334,6 @@ a img{
         margin-right: -19px;
         font-size: 28px;
     }
-    .work{
-        margin-top: 100px;
-    }
 
     section h2 {
         font-size: 30px;
@@ -380,15 +348,19 @@ a img{
 
     section p {
         font-size: 18px;
-        padding-left: 70px; 
-        padding-right: 15px;
+        padding: 0 15px 0 70px;
     }
-    .container{
-        padding-left: 100px;
+
+    .work{
+        margin-top: 100px;
     }
 
     .work h2::after{
         height: 800px;
+    }
+
+    .container{
+        padding-left: 100px;
     }
 
     .box {
@@ -462,10 +434,6 @@ a img{
         width: 800px;
     }
 
-    .work{
-        margin-top: 100px;
-    }
-
     section h2 {
         font-size: 40px; 
         padding-left: 50PX;
@@ -473,20 +441,24 @@ a img{
 
     section h2::after{
         right: -40px;
-        height: 800px;
+        height: 550px;
     }
 
     section p {
-        font-size: 18px;
+        font-size: 25px;
         padding-left: 90px; 
-        font-size: 30px;
     }
-    .container{
-        padding-left: 100px;
+
+    .work{
+        margin-top: 100px;
     }
 
     .work h2::after{
         height: 800px;
+    }
+
+    .container{
+        padding-left: 100px;
     }
 
     .box {
