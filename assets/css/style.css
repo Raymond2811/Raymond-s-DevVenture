@@ -120,16 +120,25 @@ section h2::after{
     position: relative;
 }
 
+.box img{
+    width:804px;
+    height: 450px;
+}
+
 .box h3{
     color: var(--black);
     background-color: var(--green);
-    width: 100px;
+    width: 355px;
     height: 55px;
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 50px;
+}
+
+.box #horiseon:active{
+    color: var(--skyblue);
 }
 
 a img{
@@ -162,14 +171,6 @@ a img{
     margin-bottom: 20px;
 }
 
-.box-small #horiseon{
-    width: 225px;
-    height: 30px;
-}
-
-.box-small #horiseon:active{
-    color: var(--skyblue);
-}
 
 .box-small img {
     width: 375px;
