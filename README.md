@@ -15,7 +15,7 @@ The second are projects I've worked on so far. Third is my contact information.
 
 ## Credits
 
-Josue, .
+Josue, github.com/JosueHernand
 
 Youtube: vertical line - https://youtu.be/FZh6NPcL9xQ?si=OewPneJxsvEisi_1
 
