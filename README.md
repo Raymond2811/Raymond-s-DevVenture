@@ -7,6 +7,8 @@ When creating my portfolio I learned several things like how easy it is to break
 One of the things I learned from this experience, how to use display flex to create a layout for my images. 
 Another thing that I learned was how to use media queries, which allowed me to create responsive designs that adapt seamlessly to different screen sizes and devices.
 
+https://raymond2811.github.io/Raymond-s-DevVenture/
+
 ## Usage
 
 My website is simple, doesn't have anything crazy yet. Click on links in the nav bar to direction you to a section. 
