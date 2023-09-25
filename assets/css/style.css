@@ -162,13 +162,17 @@ a img{
 .box-small h3{
     color: var(--black);
     background-color: var(--green);
-    width: 50px;
+    width: 55px;
     height: 30px;
     position: absolute;
     bottom: 0;
     left: 0;
     font-size: 25px;
     margin-bottom: 20px;
+}
+
+#Reel{
+    width: 145px;
 }
 
 
